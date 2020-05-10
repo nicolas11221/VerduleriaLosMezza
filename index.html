@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Productos</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="description" content="Wish shop project">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="styles/bootstrap4/bootstrap.min.css">
+<link href="plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<link href="plugins/malihu-custom-scrollbar/jquery.mCustomScrollbar.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="plugins/jquery-ui-1.12.1.custom/jquery-ui.css">
+<link rel="stylesheet" type="text/css" href="styles/categories.css">
+<link rel="stylesheet" type="text/css" href="styles/categories_responsive.css">
+</head>
+<body>
+
+<div class="super_container">
+	
+	<!-- Header -->
+
+	<header class="header">
+		<div class="header_inner d-flex flex-row align-items-center justify-content-start">
+			<div class="logo"><a href="#">Productos</a></div>
+			<nav class="main_nav">
+				<ul>
+					<li><a href="index.html">Principal</a></li>
+					<li><a href="categories.html">Productos</a></li>
+					<li><a href="#contact">Contacto</a></li>
+				</ul>
+			</nav>
+			<div class="header_content ml-auto">
+				<div class="search header_search">
+					<form action="#">
+						<input type="search" class="search_input" required="required">
+						<button type="submit" id="search_button" class="search_button"><img src="images/magnifying-glass.svg" alt=""></button>
+					</form>
+				</div>
+				<div class="shopping">
+			</div>
+
+			<div class="burger_container d-flex flex-column align-items-center justify-content-around menu_mm"><div></div><div></div><div></div></div>
+		</div>
+	</header>
+
+	<!-- Menu -->
+
+	<div class="menu d-flex flex-column align-items-end justify-content-start text-right menu_mm trans_400">
+		<div class="menu_close_container"><div class="menu_close"><div></div><div></div></div></div>
+		<div class="logo menu_mm"><a href="#">Menú</a></div>
+		<div class="search">
+			
+		</div>
+		<nav class="menu_nav">
+			<ul class="menu_mm">
+				<li class="menu_mm"><a href="index.html">Principal</a></li>
+				<li class="menu_mm"><a href="categories.html">Productos</a></li>
+				<li class="menu_mm"><a href="index.html#contact">Contacto</a></li>
+			</ul>
+		</nav>
+	</div>
+
+	<!-- Home -->
+
+	<div class="home">
+		<div class="home_background parallax-window" data-parallax="scroll" data-image-src="images/PrincipalFrutas&Verduras.jpg" data-speed="0.8"></div>
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<div class="home_container">
+						<div class="home_content">
+							<div class="home_title">Frutas y Verduras</div>
+							<br>
+							<div class="home_title">
+								<ul>
+									<li>A Domicilio</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Products -->
+
+	<div class="products">
+	
+
+	<!-- Promo -->
+<!-- ############################################################################## -->
+<div class="promo">
+	<div class="container">
+		<div class="row">
+			<div class="col">
+				<div class="section_title_container text-center">
+					<div class="section_subtitle">Entrega A Domicilio Solo En La Florida ("Minimo Para Entregas, desde 15.000")</div>
+					<div class="section_title">Frutas Y Verduras A Domicilio</div>
+				</div>
+			</div>
+
+		</div>
+		<div class="row promo_container">
+		</div>
+	</div>
+</div>
+
+
+<div class="products">
+	<div class="container">
+
+		<div class="row products_container">
+			<div class="col">
+				
+				<!-- Products -->
+
+				<div class="product_grid">
+
+					<!-- Product -->
+					<div class="product">
+						<div class="product_image"><img src="images/principalmage.jpg" alt=""></div>
+						
+						<div class="product_content clearfix">
+							<div class="product_info">
+								<div class="product_name"><a> </a></div>
+								<div class="product_price"></div>
+							</div>
+						
+						</div>
+					</div>
+
+					<!-- Product -->
+					<div class="product">
+						<div class="product_image"><img src="images/principalmage1.jpg" alt=""></div>
+						
+						<div class="product_content clearfix">
+							<div class="product_info">
+								<div class="product_name"><a href="#"> </a></div>
+								<div class="product_price"> </div>
+							</div>
+						</div>
+					</div>
+
+					<!-- Product -->
+					<div class="product">
+						<div class="product_image"><img src="images/principalmage2.jpg" alt=""></div>
+						
+						<div class="product_content clearfix">
+							<div class="product_info">
+								<div class="product_name"><a href="#"> </a></div>
+								<div class="product_price"> </div>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+				
+		</div>
+	
+	</div>
+
+
+
+    <div id="contact" class="section db">
+		<div class="container">
+			<div class="section-title text-center">
+				<h3>Contactanos</h3>
+				<p>Si Desea Hacer Una Pregunta, Cotizar O Tiene Dudas De Stock, <br> no dude en contactarnos.</p>
+				<p>Puede hacerlo a través del Formulario</p>
+				<p> WhatsApp Para pedidos: (+56 9) 34566854 </p>
+			</div><!-- end title -->
+
+			<div class="row">
+				<div class="col-md-12">
+					<div class="contact_form">
+						<div id="message"></div>
+							<form action="contact_me.php" name="sentMessage" method="post">
+								<div class="meensajitos">
+								<div class="row">
+									<div class="col-md-6">
+										<input class="Noombre" type="text" name="nombre" placeholder="Nombre" required> <br> <br>
+										<input class="Coorreo" type="text" name="correo" placeholder="Correo" required> <br> <br>
+										<input class="Teelefono" type="text" name="telefono" placeholder="Telefono" required> <br> <br>
+										<textarea class="Meensaje" name="mensaje" placeholder="Escriba su mensaje o Pedido aqui" required></textarea>
+										<br><br>
+										<input class="botoncito" type="submit" value="ENVIAR" id="boton">
+						
+								</div>
+							    </div>
+							</form>
+					</div>
+				</div><!-- end col -->
+			</div><!-- end row -->
+		</div><!-- end container -->
+	</div><!-- end section -->
+
+
+
+	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3325.792905951466!2d-70.57703788508877!3d-33.53276960912729!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662d0e28f8898ef%3A0xfad4befa59dfae9a!2sLa%20Florida%208949%2C%20La%20Florida%2C%20Regi%C3%B3n%20Metropolitana!5e0!3m2!1ses-419!2scl!4v1588187089070!5m2!1ses-419!2scl" width="1400" height="400"  frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+
+
+
+
+<!-- Footer -->
+
+	<footer class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col text-center">
+					<div class="footer_logo"><a href="#">Los Mezza</a></div>
+					
+					<div class="footer_social">
+						<ul>
+							<li><a href="https://www.facebook.com/RAMADA8949/?ref=br_rs"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+							<li><a href="https://www.instagram.com/losmezzaverduleria/?hl=es-la"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+						</ul>
+					</div>
+					<div class="copyright">
+					<h4> Trabajo Responsable y De Calidad </h4>
+				</div>
+			</div>
+		</div>
+	</footer>
+</div>
+
+
+
+
+
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="styles/bootstrap4/popper.js"></script>
+<script src="styles/bootstrap4/bootstrap.min.js"></script>
+<script src="plugins/easing/easing.js"></script>
+<script src="plugins/parallax-js-master/parallax.min.js"></script>
+<script src="plugins/Isotope/isotope.pkgd.min.js"></script>
+<script src="plugins/malihu-custom-scrollbar/jquery.mCustomScrollbar.js"></script>
+<script src="plugins/jquery-ui-1.12.1.custom/jquery-ui.js"></script>
+<script src="js/categories_custom.js"></script>
+</body>
+</html>
